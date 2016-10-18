@@ -1,4 +1,4 @@
-package com.zhaiyz.jfinal.interceptor;
+package com.rio4j.jfinal.interceptor;
 
 import com.jfinal.aop.Interceptor;
 import com.jfinal.aop.Invocation;

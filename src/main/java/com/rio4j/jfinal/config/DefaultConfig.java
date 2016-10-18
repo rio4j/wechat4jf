@@ -1,4 +1,4 @@
-package com.zhaiyz.jfinal.config;
+package com.rio4j.jfinal.config;
 
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
@@ -9,8 +9,8 @@ import com.jfinal.config.Routes;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.dialect.MysqlDialect;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
-import com.zhaiyz.jfinal.controller.StudentController;
-import com.zhaiyz.jfinal.model.Student;
+import com.rio4j.jfinal.controller.StudentController;
+import com.rio4j.jfinal.model.Student;
 
 /**
  * Created by zhaiyz on 15-12-13.
@@ -30,7 +30,7 @@ public class DefaultConfig extends JFinalConfig {
 
     @Override
     public void configPlugin(Plugins me) {
-        C3p0Plugin cp = new C3p0Plugin("jdbc:mysql://localhost:3306/test", "root", "root");
+        C3p0Plugin cp = new C3p0Plugin("jdbc:mysql://192.168.1.251:3306/111111", "root", "111111");
         cp.setDriverClass("com.mysql.jdbc.Driver");
         me.add(cp);
         ActiveRecordPlugin arp = new ActiveRecordPlugin(cp);

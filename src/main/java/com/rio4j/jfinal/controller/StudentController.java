@@ -1,9 +1,9 @@
-package com.zhaiyz.jfinal.controller;
+package com.rio4j.jfinal.controller;
 
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
-import com.zhaiyz.jfinal.interceptor.StudentInterceptor;
-import com.zhaiyz.jfinal.model.Student;
+import com.rio4j.jfinal.interceptor.StudentInterceptor;
+import com.rio4j.jfinal.model.Student;
 
 import java.util.List;
 

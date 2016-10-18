@@ -1,4 +1,4 @@
-package com.zhaiyz.jfinal.main;
+package com.rio4j.jfinal.main;
 
 import com.jfinal.core.JFinal;
 

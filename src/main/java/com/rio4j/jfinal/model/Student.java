@@ -1,4 +1,4 @@
-package com.zhaiyz.jfinal.model;
+package com.rio4j.jfinal.model;
 
 import com.jfinal.plugin.activerecord.Model;
 
